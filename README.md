@@ -15,4 +15,9 @@
 
 <h2 align="center">Discord </h2>
 
-[![Discord Presence](https://lanyard.cnrad.dev/api/981150120571715604)](https://discord.com/users/981150120571715604)
+<p align="center">
+  <a href="https://discord.com/users/981150120571715604">
+    <img src="https://lanyard.cnrad.dev/api/981150120571715604" />
+  </a>
+</p>
+
