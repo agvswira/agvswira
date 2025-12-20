@@ -7,7 +7,7 @@
 <p align="center">
   I'm Wira — an informatics student who enjoys coding, exploring new technologies,  
   and building useful (sometimes fun) projects.  
-  Interested in software development, problem solving,  
+  Interested in artificial intelligence, problem solving,  
   and understanding how systems work under the hood.
 </p>
 
