@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://discord.com/users/981150120571715604">
-    <img src="https://lanyard.cnrad.dev/api/981150120571715604" />
+    <img src="https://lanyard.cnrad.dev/api/981150120571715604" width="500" />
   </a>
 </p>
 
