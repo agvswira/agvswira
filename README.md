@@ -1,6 +1,5 @@
 # Hi! 👋 I'm Wira.
 
-<br>
 <h2 align="center">Skills </h2>
 <p align="center">
   <a href="https://skillicons.dev">
