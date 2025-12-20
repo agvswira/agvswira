@@ -6,7 +6,6 @@
     <img src="https://skillicons.dev/icons?i=python,c,html,css,js,vscode,figma" />
   </a>
 </p>
-<br>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/?username=agvswira&title_color=219ebc&text_color=bde0fe&show_icons=true&bg_color=00000000&hide_border=true&icon_color=674fc9&hide_title=false&count_private=true" />
