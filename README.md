@@ -29,6 +29,6 @@
 
 <p align="center">
   <a href="https://discord.com/users/981150120571715604">
-    <img src="https://lanyard.cnrad.dev/api/981150120571715604" width="460" />
+    <img src="https://lanyard.cnrad.dev/api/981150120571715604?idleMessage=lagi%20bobo%F0%9F%98%B4%20" width="460" />
   </a>
 </p>
