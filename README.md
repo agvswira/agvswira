@@ -11,7 +11,7 @@
   and understanding how systems work under the hood.
 </p>
 
-<h2>   </h2>
+<h2></h2>
 
 <h3 align="center">Tech Stack</h3>
 
