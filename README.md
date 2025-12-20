@@ -22,7 +22,7 @@
 <h3 align="center">GitHub Stats</h3>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=agvswira&show_icons=true&theme=transparent&hide_border=true&count_private=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=agvswira&title_color=219ebc&text_color=bde0fe&show_icons=true&bg_color=00000000&hide_border=true&icon_color=674fc9&hide_title=false&count_private=true" />
 </p>
 
 <h3 align="center">Discord</h3>
