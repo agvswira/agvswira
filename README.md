@@ -1,25 +1,30 @@
-<h1 align="center">Hi! 👋 I'm Wira</h1>
+<hr>
+
+<h1 align="center">Hi, I'm Wira</h1>
 
 <p align="center">
-  Informatics student • Coding enthusiast • Always learning 🚀
+  Informatics student • Coding enthusiast • Always learning
 </p>
 
 <p align="center">
-  I'm Wira — an informatics student who enjoys coding, exploring new technologies,  
-  and building useful (and sometimes fun) projects.  
-  Interested in software development, problem solving, and learning how systems work under the hood.
+  Informatics student who enjoys coding, exploring new technologies,  
+  and building useful (sometimes fun) projects.  
+  Interested in software development, problem solving,  
+  and understanding how systems work under the hood.
 </p>
 
-<h2 align="center">Tech Stacks</h2>
+<hr>
+
+<h2 align="center">Tech Stack</h2>
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img
-      src="https://skillicons.dev/icons?i=python,c,html,css,js,vscode,figma&theme=dark"
-      alt="Skills"
-    />
-  </a>
+  <img
+    src="https://skillicons.dev/icons?i=python,c,html,css,js,vscode,figma&theme=dark"
+    alt="Tech Stack"
+  />
 </p>
+
+<hr>
 
 <h2 align="center">GitHub Stats</h2>
 
@@ -30,14 +35,18 @@
   />
 </p>
 
+<hr>
+
 <h2 align="center">Discord</h2>
 
 <p align="center">
   <a href="https://discord.com/users/981150120571715604">
     <img
       src="https://lanyard.cnrad.dev/api/981150120571715604"
-      width="480"
+      width="460"
       alt="Discord Presence"
     />
   </a>
 </p>
+
+<hr>
