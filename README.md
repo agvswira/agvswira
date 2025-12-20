@@ -1,4 +1,4 @@
-<h1 align="center">Hi there 👋</h1>
+<h1 align="center">Hi there!👋</h1>
 
 <p align="center">
   Informatics student • Coding enthusiast • Always learning
@@ -11,6 +11,8 @@
   and understanding how systems work under the hood.
 </p>
 
+<div align="center" style="border-top:1px solid #30363d; margin:24px 0;"></div>
+
 <h3 align="center">Tech Stack</h3>
 
 <p align="center">
@@ -20,6 +22,8 @@
   />
 </p>
 
+<div align="center" style="border-top:1px solid #30363d; margin:24px 0;"></div>
+
 <h3 align="center">GitHub Stats</h3>
 
 <p align="center">
@@ -28,6 +32,8 @@
     alt="GitHub Stats"
   />
 </p>
+
+<div align="center" style="border-top:1px solid #30363d; margin:24px 0;"></div>
 
 <h3 align="center">Discord</h3>
 
