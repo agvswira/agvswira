@@ -17,7 +17,7 @@
 <h2 align="center">Discord </h2>
 
 <p align="center">
-  <a href="https://discord.com/users/601337312714031124">
-    <img src="https://lanyard.cnrad.dev/api/601337312714031124" alt="Discord Presence" width="500">
+  <a href="https://discord.com/users/9811501205717156044">
+    <img src="https://lanyard.cnrad.dev/api/981150120571715604" alt="Discord Presence" width="500">
   </a>
 </p>
