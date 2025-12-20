@@ -24,7 +24,7 @@
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=agvswira&show_icons=true&theme=transparent&hide_border=true&count_private=true"
+    src="https://github-readme-stats.vercel.app/api?username=agvswira&show_icons=true&hide_border=true&count_private=true"
     alt="GitHub Stats"
   />
 </p>
