@@ -1,5 +1,3 @@
-<hr>
-
 <h1 align="center">Hi, I'm Wira</h1>
 
 <p align="center">
@@ -13,8 +11,6 @@
   and understanding how systems work under the hood.
 </p>
 
-<hr>
-
 <h2 align="center">Tech Stack</h2>
 
 <p align="center">
@@ -24,8 +20,6 @@
   />
 </p>
 
-<hr>
-
 <h2 align="center">GitHub Stats</h2>
 
 <p align="center">
@@ -34,8 +28,6 @@
     alt="GitHub Stats"
   />
 </p>
-
-<hr>
 
 <h2 align="center">Discord</h2>
 
@@ -48,5 +40,3 @@
     />
   </a>
 </p>
-
-<hr>
