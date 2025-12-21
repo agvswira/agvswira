@@ -13,6 +13,12 @@
 
 <h2></h2>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=agvswira&title_color=219ebc&text_color=bde0fe&show_icons=true&bg_color=00000000&hide_border=true&icon_color=674fc9&hide_title=false&count_private=true" />
+</p>
+
+<h3 align="center">Discord</h3>
+
 <h3 align="center">Tech Stack</h3>
 
 <p align="center">
@@ -20,12 +26,6 @@
 </p>
 
 <h3 align="center">GitHub Stats</h3>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=agvswira&title_color=219ebc&text_color=bde0fe&show_icons=true&bg_color=00000000&hide_border=true&icon_color=674fc9&hide_title=false&count_private=true" />
-</p>
-
-<h3 align="center">Discord</h3>
 
 <p align="center">
   <a href="https://discord.com/users/981150120571715604">
