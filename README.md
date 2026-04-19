@@ -1,15 +1,3 @@
-<h1 align="center">Hi there!👋</h1>
-
-<p align="center">
-  Informatics student • Coding enthusiast • Always learning
-</p>
-
-<p align="center">
-  I'm Wira — an informatics student who enjoys coding, exploring new technologies,  
-  and building useful (sometimes fun) projects.  
-  Interested in artificial intelligence, problem solving,  
-  and understanding how systems work under the hood.
-</p>
 
 <h2></h2>
 
