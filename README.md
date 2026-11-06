@@ -4,27 +4,16 @@
 class AgusWira:
     name = "Komang Agus Wira Adnyana"
     based_in = "Bali, Indonesia"
+    education = "Informatics undergraduate @ Udayana University"
+    cgpa = "3.89 / 4.00"
     role = "Aspiring AI/ML Engineer"
+    os = ["CachyOS (Hyprland)", "Windows"]
+    building = {
+        "Reharsa": "AI hotel guests for tourism speaking practice",
+        "Niagara": "AI agents for B2B distributor order-to-cash",
+    }
 
-    def education(self) -> dict[str, str]:
-        return {
-            "program": "Informatics undergraduate",
-            "university": "Udayana University",
-            "cgpa": "3.89 / 4.00",
-        }
-
-    def setup(self) -> dict[str, list[str]]:
-        return {
-            "os": ["CachyOS (Hyprland)", "Windows"],
-        }
-
-    def building(self) -> dict[str, str]:
-        return {
-            "Reharsa": "AI hotel guests for tourism speaking practice",
-            "Niagara": "AI agents for B2B distributor order-to-cash",
-        }
-
-    def status(self, online: bool) -> str:
+    def status(self, online):
         return "coding/vibing" if online else "lagi bobo"
 ```
 
