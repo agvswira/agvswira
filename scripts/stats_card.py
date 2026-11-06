@@ -23,7 +23,10 @@ query($login: String!) {
     contributionsCollection {
       totalCommitContributions
       totalPullRequestContributions
-      contributionCalendar { totalContributions }
+      contributionCalendar {
+        totalContributions
+        weeks { contributionDays { date contributionCount } }
+      }
     }
   }
 }
@@ -43,7 +46,30 @@ LINE = 24
 TITLE = "last 12 months"
 
 
-def fetch(login: str, token: str) -> list[tuple[str, int]]:
+def streaks(counts: list[int]) -> tuple[int, int]:
+    """Current and longest run of days with contributions, oldest day first.
+
+    Today does not break the current streak until it is over, so a day
+    with no contributions yet is skipped when it is the last one.
+    """
+    longest = run = 0
+    for c in counts:
+        run = run + 1 if c else 0
+        longest = max(longest, run)
+    days = counts[:-1] if counts and counts[-1] == 0 else counts
+    current = 0
+    for c in reversed(days):
+        if not c:
+            break
+        current += 1
+    return current, longest
+
+
+def days(n: int) -> str:
+    return f"{n} day" if n == 1 else f"{n} days"
+
+
+def fetch(login: str, token: str) -> list[tuple[str, int | str]]:
     body = json.dumps({"query": QUERY, "variables": {"login": login}}).encode()
     req = urllib.request.Request(
         "https://api.github.com/graphql",
@@ -56,16 +82,24 @@ def fetch(login: str, token: str) -> list[tuple[str, int]]:
         sys.exit(f"GitHub API error: {data['errors']}")
     user = data["data"]["user"]
     cc = user["contributionsCollection"]
+    calendar = cc["contributionCalendar"]
+    counts = [d["contributionCount"] for w in calendar["weeks"] for d in w["contributionDays"]]
+    current, longest = streaks(counts)
     return [
-        ("contributions", cc["contributionCalendar"]["totalContributions"]),
+        ("contributions", calendar["totalContributions"]),
         ("commits", cc["totalCommitContributions"]),
         ("pull requests", cc["totalPullRequestContributions"]),
         ("public repos", user["repositories"]["totalCount"]),
+        ("current streak", days(current) if current else 0),
+        ("longest streak", days(longest) if longest else 0),
     ]
 
 
-def sample() -> list[tuple[str, int]]:
-    return [("contributions", 271), ("commits", 167), ("pull requests", 1), ("public repos", 16)]
+def sample() -> list[tuple[str, int | str]]:
+    return [
+        ("contributions", 274), ("commits", 170), ("pull requests", 1), ("public repos", 9),
+        ("current streak", days(4)), ("longest streak", days(5)),
+    ]
 
 
 def text(y: float, cols: int, inner: str, color: str, bold: bool = False) -> str:
@@ -76,14 +110,14 @@ def text(y: float, cols: int, inner: str, color: str, bold: bool = False) -> str
     )
 
 
-def render(rows: list[tuple[str, int]], theme: dict) -> str:
+def render(rows: list[tuple[str, int | str]], theme: dict) -> str:
     rows = [(label, value) for label, value in rows if value]
     y = PAD + SIZE
     out = [text(y, len(TITLE), TITLE, theme["head"], bold=True)]
     summary = []
     for label, value in rows:
         y += LINE
-        val = f"{value:,}"
+        val = f"{value:,}" if isinstance(value, int) else value
         dots = "." * (COLS - len(label) - len(val) - 2)
         inner = f'{escape(label)} {dots} <tspan fill="{theme["value"]}" font-weight="700">{val}</tspan>'
         out.append(text(y, COLS, inner, theme["text"]))

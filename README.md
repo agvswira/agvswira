@@ -52,13 +52,6 @@ class AgusWira:
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=agvswira&hide_border=true&background=00000000&ring=674fc9&fire=219ebc&currStreakLabel=219ebc&sideLabels=219ebc&currStreakNum=bde0fe&sideNums=bde0fe&dates=bde0fe&stroke=674fc9" />
-    <img alt="agvswira's contribution streak" src="https://streak-stats.demolab.com?user=agvswira&hide_border=true&background=00000000&ring=674fc9&fire=126782&currStreakLabel=126782&sideLabels=126782&currStreakNum=24292f&sideNums=24292f&dates=24292f&stroke=674fc9" />
-  </picture>
-</p>
-
 ### `agvswira@github:~$ ping discord`
 
 <p align="center">
