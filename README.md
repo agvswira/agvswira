@@ -2,14 +2,22 @@
 
 ```python
 class AgusWira:
-    def __init__(self):
-        self.name = "Komang Agus Wira Adnyana"
-        self.based_in = "Bali, Indonesia"
-        self.education = "Informatics undergraduate @ Udayana University"
-        self.cgpa = "3.89 / 4.00"
-        self.role = "Aspiring AI/ML Engineer"
-        self.os = ["CachyOS (Hyprland)", "Windows"]
-        self.building = {
+    name = "Komang Agus Wira Adnyana"
+    based_in = "Bali, Indonesia"
+    role = "Aspiring AI/ML Engineer"
+
+    def education(self) -> dict[str, str]:
+        return {
+            "program": "Informatics undergraduate",
+            "university": "Udayana University",
+            "cgpa": "3.89 / 4.00",
+        }
+
+    def setup(self) -> list[str]:
+        return ["CachyOS (Hyprland)", "Windows"]
+
+    def building(self) -> dict[str, str]:
+        return {
             "Reharsa": "AI hotel guests that tourism students practice speaking with",
             "Niagara": "AI agents that run order-to-cash for B2B distributors",
         }
