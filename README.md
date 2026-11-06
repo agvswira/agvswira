@@ -8,7 +8,7 @@ class AgusWira:
         self.education = "Informatics undergraduate @ Udayana University"
         self.cgpa = "3.89 / 4.00"
         self.role = "Aspiring AI/ML Engineer"
-        self.os = "CachyOS (Hyprland) / Windows"
+        self.os = ["CachyOS (Hyprland)", "Windows"]
         self.building = {
             "Reharsa": "AI hotel guests that tourism students practice speaking with",
             "Niagara": "AI agents that run order-to-cash for B2B distributors",
