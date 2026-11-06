@@ -13,8 +13,10 @@ class AgusWira:
             "cgpa": "3.89 / 4.00",
         }
 
-    def setup(self) -> list[str]:
-        return ["CachyOS (Hyprland)", "Windows"]
+    def setup(self) -> dict[str, list[str]]:
+        return {
+            "os": ["CachyOS (Hyprland)", "Windows"],
+        }
 
     def building(self) -> dict[str, str]:
         return {
