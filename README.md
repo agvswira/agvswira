@@ -37,10 +37,10 @@ class AgusWira:
   <img alt="Figma" src="https://img.shields.io/badge/Figma-1b2433?style=for-the-badge&logo=figma&logoColor=F24E1E" />
 </p>
 
-### `agvswira@github:~$ cat achievements.log`
+### `agvswira@github:~$ cat achievements.yml`
 
-```log
-2026  3rd Place @ Bitsmikro Innovative Vibecode 2026
+```yaml
+2026: 3rd Place @ Bitsmikro Innovative Vibecode 2026
 ```
 
 ### `agvswira@github:~$ ./stats.sh`
