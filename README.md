@@ -1,24 +1,81 @@
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&weight=600&size=24&duration=2200&pause=600&color=219EBC&center=true&vCenter=true&repeat=false&width=520&height=50&lines=~%24+.%2Fhello.sh;hi%2C+I'm+agvswira" />
+    <img alt="hi, I'm agvswira" src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&weight=600&size=24&duration=2200&pause=600&color=126782&center=true&vCenter=true&repeat=false&width=520&height=50&lines=~%24+.%2Fhello.sh;hi%2C+I'm+agvswira" />
+  </picture>
+</div>
 
-<h2></h2>
+<br/>
 
+### `agvswira@github:~$ whoami`
 
-<h3 align="center">GitHub Stats</h3>
+```python
+class AgusWira:
+    def __init__(self):
+        self.name = "Komang Agus Wira Adnyana"
+        self.based_in = "Bali, Indonesia"
+        self.education = "Informatics undergraduate @ Udayana University"
+        self.cgpa = "3.89 / 4.00"
+        self.role = "Aspiring AI/ML Engineer"
+        self.building = ["Reharsa", "Niagara"]
+
+    def status(self, online: bool) -> str:
+        return "coding/vibing" if online else "lagi bobo"
+```
+
+### `agvswira@github:~$ ls ~/toolbox`
+
+<p align="center"><code>languages/</code></p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=agvswira&title_color=219ebc&text_color=bde0fe&show_icons=true&bg_color=00000000&hide_border=true&icon_color=674fc9&hide_title=false&count_private=true" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-1b2433?style=for-the-badge&logo=python&logoColor=3776AB" />
+  <img alt="C" src="https://img.shields.io/badge/C-1b2433?style=for-the-badge&logo=c&logoColor=A8B9CC" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-1b2433?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1b2433?style=for-the-badge&logo=typescript&logoColor=3178C6" />
+  <img alt="HTML" src="https://img.shields.io/badge/HTML-1b2433?style=for-the-badge&logo=html5&logoColor=E34F26" />
+  <img alt="CSS" src="https://img.shields.io/badge/CSS-1b2433?style=for-the-badge&logo=css&logoColor=1572B6" />
 </p>
 
-
-
-<h3 align="center">Tech Stack</h3>
-
+<p align="center"><code>tools/</code></p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,c,html,css,js,vscode,figma&theme=dark" />
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-1b2433?style=for-the-badge&logo=linux&logoColor=FCC624" />
+  <img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-1b2433?style=for-the-badge" />
+  <img alt="Figma" src="https://img.shields.io/badge/Figma-1b2433?style=for-the-badge&logo=figma&logoColor=F24E1E" />
 </p>
 
-<h3 align="center">Discord</h3>
+### `agvswira@github:~$ cat achievements.log`
+
+```log
+2026  3rd Place @ Bitsmikro Innovative Vibecode 2026
+```
+
+### `agvswira@github:~$ ./stats.sh`
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/3-stats.svg" />
+    <img alt="agvswira's GitHub stats" src="./profile-summary-card-output/github/3-stats.svg" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/2-most-commit-language.svg" />
+    <img alt="Languages agvswira commits in most" src="./profile-summary-card-output/github/2-most-commit-language.svg" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=agvswira&hide_border=true&background=00000000&ring=674fc9&fire=219ebc&currStreakLabel=219ebc&sideLabels=219ebc&currStreakNum=bde0fe&sideNums=bde0fe&dates=bde0fe&stroke=674fc9" />
+    <img alt="agvswira's contribution streak" src="https://streak-stats.demolab.com?user=agvswira&hide_border=true&background=00000000&ring=674fc9&fire=126782&currStreakLabel=126782&sideLabels=126782&currStreakNum=24292f&sideNums=24292f&dates=24292f&stroke=674fc9" />
+  </picture>
+</p>
+
+### `agvswira@github:~$ ping discord`
 
 <p align="center">
   <a href="https://discord.com/users/981150120571715604">
-    <img src="https://lanyard.cnrad.dev/api/981150120571715604?idleMessage=lagi%20bobo%F0%9F%98%B4%20" width="460" />
+    <img width="460" alt="agvswira's Discord status" src="https://lanyard.cnrad.dev/api/981150120571715604?idleMessage=lagi%20bobo%F0%9F%98%B4%20" />
   </a>
 </p>
+
+### `agvswira@github:~$ exit`
+
+<sub>if I haven't replied, check my status above. I'm probably asleep.</sub>
