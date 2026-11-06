@@ -43,15 +43,6 @@ class AgusWira:
 2026: 3rd Place @ Bitsmikro Innovative Vibecode 2026
 ```
 
-### `agvswira@github:~$ ./stats.sh`
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./stats/terminal-stats-dark.svg" />
-    <img alt="agvswira's GitHub stats for the last 12 months" src="./stats/terminal-stats-light.svg" />
-  </picture>
-</p>
-
 ### `agvswira@github:~$ ping discord`
 
 <p align="center">
