@@ -1,12 +1,3 @@
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&weight=600&size=24&duration=2200&pause=600&color=219EBC&center=true&vCenter=true&repeat=false&width=520&height=50&lines=~%24+.%2Fhello.sh;hi%2C+I'm+agvswira" />
-    <img alt="hi, I'm agvswira" src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&weight=600&size=24&duration=2200&pause=600&color=126782&center=true&vCenter=true&repeat=false&width=520&height=50&lines=~%24+.%2Fhello.sh;hi%2C+I'm+agvswira" />
-  </picture>
-</div>
-
-<br/>
-
 ### `agvswira@github:~$ whoami`
 
 ```python
@@ -17,7 +8,11 @@ class AgusWira:
         self.education = "Informatics undergraduate @ Udayana University"
         self.cgpa = "3.89 / 4.00"
         self.role = "Aspiring AI/ML Engineer"
-        self.building = ["Reharsa", "Niagara"]
+        self.os = "CachyOS (Hyprland) / Windows"
+        self.building = {
+            "Reharsa": "AI hotel guests that tourism students practice speaking with",
+            "Niagara": "AI agents that run order-to-cash for B2B distributors",
+        }
 
     def status(self, online: bool) -> str:
         return "coding/vibing" if online else "lagi bobo"
