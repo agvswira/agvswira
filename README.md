@@ -2,16 +2,26 @@
 
 ```python
 class AgusWira:
-    name = "Komang Agus Wira Adnyana"
-    based_in = "Bali, Indonesia"
-    education = "Informatics undergraduate @ Udayana University"
-    cgpa = "3.89 / 4.00"
-    role = "Aspiring AI/ML Engineer"
-    os = ["CachyOS (Hyprland)", "Windows"]
-    building = {
-        "Reharsa": "AI hotel guests for tourism speaking practice",
-        "Niagara": "AI agents for B2B distributor order-to-cash",
-    }
+    def __init__(self):
+        self.name = "Komang Agus Wira Adnyana"
+        self.based_in = "Bali, Indonesia"
+        self.role = "Aspiring AI/ML Engineer"
+
+    def education(self):
+        return {
+            "major": "Informatics",
+            "university": "Udayana University",
+            "cgpa": "3.89 / 4.00",
+        }
+
+    def os(self):
+        return ["CachyOS (Hyprland)", "Windows"]
+
+    def building(self):
+        return {
+            "Reharsa": "AI hotel guests for tourism speaking practice",
+            "Niagara": "AI agents for B2B distributor order-to-cash",
+        }
 
     def status(self, online):
         return "coding/vibing" if online else "lagi bobo"
