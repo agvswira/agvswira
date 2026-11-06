@@ -18,8 +18,8 @@ class AgusWira:
 
     def building(self) -> dict[str, str]:
         return {
-            "Reharsa": "AI hotel guests that tourism students practice speaking with",
-            "Niagara": "AI agents that run order-to-cash for B2B distributors",
+            "Reharsa": "AI hotel guests for tourism speaking practice",
+            "Niagara": "AI agents for B2B distributor order-to-cash",
         }
 
     def status(self, online: bool) -> str:
