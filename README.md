@@ -47,12 +47,8 @@ class AgusWira:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/3-stats.svg" />
-    <img alt="agvswira's GitHub stats" src="./profile-summary-card-output/github/3-stats.svg" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/2-most-commit-language.svg" />
-    <img alt="Languages agvswira commits in most" src="./profile-summary-card-output/github/2-most-commit-language.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./stats/terminal-stats-dark.svg" />
+    <img alt="agvswira's GitHub stats for the last 12 months" src="./stats/terminal-stats-light.svg" />
   </picture>
 </p>
 

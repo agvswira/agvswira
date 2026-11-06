@@ -1,9 +1,15 @@
+# Renders the ./stats.sh card in README.md (stats/terminal-stats-*.svg)
+# with scripts/stats_card.py and commits it to this repo.
 name: Profile summary cards
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch: 
+    - cron: "0 0 * * *" # once a day, 00:00 UTC (07:00 WIB)
+  workflow_dispatch: # lets you run it by hand from the Actions tab
+  push: # re-render when the card script or this workflow changes
+    paths:
+      - scripts/stats_card.py
+      - .github/workflows/profile-cards.yml
 
 jobs:
   build:
@@ -12,10 +18,26 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render stats card
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: main
-          TIME_ZONE: Asia/Jakarta
+        run: python scripts/stats_card.py "${{ github.repository_owner }}"
+
+      - name: Commit if changed
+        run: |
+          # The old generated cards are no longer used by README.md.
+          git rm -r --quiet --ignore-unmatch profile-summary-card-output
+          git add stats
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update stats card"
+          git push
