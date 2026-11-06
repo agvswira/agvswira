@@ -19,16 +19,8 @@ class AgusWira:
 
     def building(self):
         return {
-            "Reharsa": (
-                "Voice simulator where tourism students serve "
-                "AI hotel guests from abroad, then get a report "
-                "that quotes their own sentences"
-            ),
-            "Niagara": (
-                "AI agents for B2B distributors that turn messy "
-                "WhatsApp orders into sales orders, chase payments, "
-                "and match bank transfers to invoices"
-            ),
+            "Reharsa": "AI hotel guests that tourism students practice speaking with",
+            "Niagara": "AI agents that run order-to-cash for B2B distributors",
         }
 
     def status(self, online):
