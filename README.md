@@ -50,9 +50,9 @@ class AgusWira:
 
 ```yaml
 2026:
-    3rd Place @ Bitsmikro Innovative Vibecode 2026
-    Finalist @ AI Agent Development in Garda Tech National Innovation Competition (GTNIC) 2026
-    Finalist @ UI/UX Design in Garda Tech National Innovation Competition (GTNIC) 2026
+  - 3rd Place @ Bitsmikro Innovative Vibecode
+  - Finalist @ GTNIC — AI Agent Development
+  - Finalist @ GTNIC — UI/UX Design
 ```
 
 ### `agvswira@github:~$ ping discord`
