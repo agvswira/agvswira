@@ -1,8 +1,6 @@
 ### `agvswira@github:~$ neofetch`
 
 ```text
-agvswira@github
----------------
 Name      : Komang Agus Wira Adnyana
 Role      : Aspiring AI/ML Engineer
 Location  : Bali, Indonesia
