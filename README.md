@@ -1,30 +1,20 @@
-### `agvswira@github:~$ whoami`
+### `agvswira@github:~$ neofetch`
 
-```python
-class AgusWira:
-    def __init__(self):
-        self.name = "Komang Agus Wira Adnyana"
-        self.based_in = "Bali, Indonesia"
-        self.role = "Aspiring AI/ML Engineer"
+```text
+### `agvswira@github:~$ neofetch`
 
-    def education(self):
-        return {
-            "major": "Informatics",
-            "university": "Udayana University",
-            "cgpa": "3.89 / 4.00",
-        }
-
-    def os(self):
-        return ["CachyOS (Hyprland)", "Windows"]
-
-    def building(self):
-        return {
-            "Reharsa": "AI hotel guests that tourism students practice speaking with",
-            "Niagara": "AI agents that run order-to-cash for B2B distributors",
-        }
-
-    def status(self, online):
-        return "coding/vibing" if online else "lagi bobo"
+```text
+agvswira@github
+---------------
+Name      : Komang Agus Wira Adnyana
+Role      : Aspiring AI/ML Engineer
+Location  : Bali, Indonesia
+Education : Informatics @ Udayana University
+CGPA      : 3.89 / 4.00
+OS        : CachyOS (Hyprland), Windows
+Building  : Reharsa - AI hotel guests that tourism students practice speaking with
+            Niagara - AI agents that run order-to-cash for B2B distributors
+            Openspace - Project management app with role-based access for teams
 ```
 
 ### `agvswira@github:~$ ls ~/toolbox`
