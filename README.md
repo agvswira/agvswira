@@ -1,9 +1,6 @@
 ### `agvswira@github:~$ neofetch`
 
 ```text
-### `agvswira@github:~$ neofetch`
-
-```text
 agvswira@github
 ---------------
 Name      : Komang Agus Wira Adnyana
