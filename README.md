@@ -49,7 +49,10 @@ class AgusWira:
 ### `agvswira@github:~$ cat achievements.yml`
 
 ```yaml
-2026: 3rd Place @ Bitsmikro Innovative Vibecode 2026
+2026:
+    3rd Place @ Bitsmikro Innovative Vibecode 2026
+    Finalist @ AI Agent Development in Garda Tech National Innovation Competition (GTNIC) 2026
+    Finalist @ UI/UX Design in Garda Tech National Innovation Competition (GTNIC) 2026
 ```
 
 ### `agvswira@github:~$ ping discord`
