@@ -6,7 +6,7 @@ Role      : Aspiring AI/ML Engineer
 Location  : Bali, Indonesia
 Education : Informatics @ Udayana University
 CGPA      : 3.89 / 4.00
-OS        : CachyOS (Hyprland), Windows
+OS        : Arch Linux (Hyprland), Windows
 Building  : Reharsa - AI hotel guests that tourism students practice speaking with
             Niagara - AI agents that run order-to-cash for B2B distributors
             Openspace - Project management app with role-based access for teams
