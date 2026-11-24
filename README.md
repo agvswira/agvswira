@@ -46,5 +46,3 @@ OS        : Arch Linux (Hyprland), Windows
 </p>
 
 ### `agvswira@github:~$ exit`
-
-<sub>if I haven't replied, check my status above. I'm probably asleep.</sub>
